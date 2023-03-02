@@ -15,4 +15,4 @@ The second script allows to extract the activity streams (streams in Strava are 
 
 &nbsp
 
-With the line Feature Class, activities.csv and streams.csv you can create the ArcGIS Dashboard.
+With the line Feature Class, <b>activities.csv</b>, and <b>streams.csv</b> you can create the ArcGIS Dashboard.
