@@ -3,7 +3,7 @@ Repository with some Python and Arcade code to extract activity data from Strava
 
 The first step to extract data from Strava is to activate the Strava API and get the right permissions and refresh token to be able to get all the activity data of interest. I must give credit to <b><a href="https://towardsdatascience.com/using-the-strava-api-and-pandas-to-explore-your-activity-data-d94901d9bfde">Matt Ambrogi</a></b> and <b><a href="https://www.youtube.com/watch?v=sgscChKfGyg&t=258s">franchyze923</a></b>. They provide an easy step by step guide to achieve this.
 
-I have created 2 different scripts, that can be combined once you have extracted all the activity streams (if you are interested on those). They are splitted as the Strava API has some limitation on requests (100 request every 15 min, and 1000 request per day)
+I have created 2 different scripts, that can be combined once you have extracted all the activity streams (if you are interested on those) and automate for dayly/weekly/monthyl updates if you wish. They are splitted as the Strava API has some limitation on requests (100 request every 15 min, and 1000 request per day)
 
 <h2>Extract_act.py : script to extract activities as csv file and create Feature Class with routes (lines)</h2>
 In my case, I used the code from Fran in its gibhub Strava API repository <b><a href="https://github.com/franchyze923/Code_From_Tutorials/tree/master/Strava_Api">franchyze923</a></b> with some changes in the way the code iterates over the pages. I am using the Strava API to get the total number of activities to calculate the number of pages that I need to loop though.
