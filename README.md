@@ -1,4 +1,4 @@
-# Strava_to_ArcGIS_Dashboard
+# Strava Activities to ArcGIS Dashboard
 Repository with some Python and Arcade code to extract activity data from Strava to produce an ArcGIS Dashboard.
 
 The first step to extract data from Strava is to activate the Strava API and get the right permissions and refresh token to be able to get all the activity data of interest. I must give credit to <b><a href="https://towardsdatascience.com/using-the-strava-api-and-pandas-to-explore-your-activity-data-d94901d9bfde">Matt Ambrogi</a></b> and <b><a href="https://www.youtube.com/watch?v=sgscChKfGyg&t=258s">franchyze923</a></b>. They provide an easy step by step guide to achieve this.
