@@ -8,7 +8,7 @@ The result of this expression is a FeatureSet that can be used to bring the **di
 ```js
 var agol = Portal('https://www.arcgis.com/');
 
-//fs1 = Survey123 hosted Feature Layer: replace XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX with item id for this hosted feature layer and fields as needed. 
+//fs1 = Survey123 hosted Feature Layer: replace XXXXX... with item id for this hosted feature layer and fields as needed. 
 //Fields will depend on your Survey123 form.
 
 var fs1 = FeatureSetByPortalItem(
@@ -32,7 +32,7 @@ var sql = "bike = 'YYYYYYYYYYY'"
 var LastServiceDateFeatureSet = Top(OrderBy(Filter(fs1,sql), 'maintenance_date DESC'),1)
 var LastServiceDateFeature = First(LastServiceDateFeatureSet)
 
-//fs2 is the hosted Table with activities: replace XXXXXXXXXXX with item id for this table
+//fs2 is the hosted Table with activities: replace XXXXXXXXXXX... with item id for this table
 var fs2 = FeatureSetByPortalItem(
     agol,
     'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
