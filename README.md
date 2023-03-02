@@ -11,7 +11,7 @@ In my case, I used the code from Fran in its gibhub Strava API repository <b><a 
 After getting the activities, using Pandas and the Polyline libraries I obtained the coordinates from the <i>map.polylines</i> column than later I will use to create some points and lines using <b>arcpy</b>. I am using <b>arcpy 3.1</b>, with previous versions slightly changes are required.
 
 <h2>extract_streams.py : script to extract activity streams as csv file</h2>
-The second script allows to extract the activity streams (streams in Strava are the data recorded during an activity, wich might include distance, time, heart rate, gradient, speed, cadence. As I mentioned before, the Strava API has some limits on requests, so you will need to slice the <i>activities_ids</i> list to avoid exceeding those limits (you might want to use some Python timer to automate this process).
+The second script allows to extract the activity streams (streams in Strava are the data recorded during an activity, wich might include distance, time, heart rate, gradient, speed, cadence). As I mentioned before, the Strava API has some limits on requests, so you will need to slice the <i>activities_ids</i> list to avoid exceeding those limits (you might want to use some Python timer to automate this process).
 
 &nbsp
 
